@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\classDefs">
+      <UniqueIdentifier>{19b97ca8-8834-43cd-bc59-6af0efebc319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Player">
+      <UniqueIdentifier>{9c0874f9-24bc-40e9-bb02-7e9073fab80a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Animation">
+      <UniqueIdentifier>{5d01017b-9172-4937-b8dc-d471a393d7e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\classDefs\extern">
+      <UniqueIdentifier>{e6675c1a-2c05-4fc1-97db-f4132a1d1c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\World">
+      <UniqueIdentifier>{746088ca-8bce-4a2f-8bc8-5d598580ac7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\UI">
+      <UniqueIdentifier>{04f7df3e-87c4-4cf1-b0d8-8ed3a7ede98f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="gameState.cpp">
+      <Filter>Quelldateien\classDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Quelldateien\classDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Quelldateien\classDefs\extern</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedSprite.cpp">
+      <Filter>Quelldateien\classDefs\extern</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Quelldateien\classDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Quelldateien\classDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Quelldateien\classDefs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gameState.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Headerdateien\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.hpp">
+      <Filter>Headerdateien\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedSprite.hpp">
+      <Filter>Headerdateien\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Headerdateien\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Headerdateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Headerdateien\World</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\playerSprite.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\bg_cloud_A.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\bg_cloud_B.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\bg_cloud_C.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\bg_cloud_D.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\bg1.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\bg2.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\bg3.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\bg4.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\midground_center.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\midground_left_A.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\midground_left_A_shadowed.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\midground_left_B.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\midground_left_B_shadowed.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\midground_left_C.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\midground_left_C_shadowed.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\midground_right_A.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\midground_right_A_shadowed.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\midground_right_B.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\midground_right_B_shadowed.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\midground_right_C.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\midground_right_C_shadowed.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\terrain_bottom_center.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\terrain_bottom_left.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\terrain_bottom_right.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\terrain_center.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\terrain_center_left.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\terrain_center_right.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\terrain_corner_inner_bottom_left.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\terrain_corner_inner_bottom_right.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\terrain_corner_inner_top_left.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\terrain_corner_inner_top_right.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\terrain_platform_center.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\terrain_platform_left.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\terrain_platform_right.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\terrain_slope_ceiling_A.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\terrain_slope_ceiling_B.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\terrain_slope_floor_A.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\terrain_slope_floor_B.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\terrain_top_center.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\terrain_top_left.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\world\terrain_top_right.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\skeletton\attack.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\skeletton\dead.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\skeletton\hit.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="assets\skeletton\walk.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
